@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo building'
+                echo "Building ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
         stage('Test') {
             steps {
-                sh 'echo testing'
+                echo "Testing ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }   
         stage('Deploy') {
             steps {
-                sh 'echo deploying'
+                echo "Deploying ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         } 
     }
