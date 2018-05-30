@@ -10,6 +10,10 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --privi
 open http://localhost:8080/job/projects/job/jenkins-pipeline-github-playground/configure
 ```
 
+### github project example
+
+<https://github.com/pfeilbr/jenkins-pipeline-github-playground>
+
 ### screenshots
 
 ![](https://www.evernote.com/l/AAHP5CpA3btPRLP-CeChawBIYaNUCyOfqaAB/image.png)
